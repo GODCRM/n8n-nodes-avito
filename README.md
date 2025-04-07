@@ -159,7 +159,7 @@ sleep 2
 # Запускаем n8n в фоновом режиме с перенаправлением вывода
 export N8N_CUSTOM_NODES_URLS="file://$N8N_CUSTOM_DIR"
 export N8N_RUNNERS_ENABLED=true
-nohup n8n start > n8n.log 2>&1 &
+nohup n8n start --tunnel > n8n.log 2>&1 &
 
 echo -e "${GREEN}Готово! n8n запущен в фоновом режиме.${NC}"
 echo -e "${GREEN}Логи доступны в файле: n8n.log${NC}"
