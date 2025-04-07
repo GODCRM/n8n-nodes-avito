@@ -165,6 +165,7 @@ echo -e "${GREEN}Готово! n8n запущен в фоновом режиме
 echo -e "${GREEN}Логи доступны в файле: n8n.log${NC}"
 echo -e "${GREEN}Для просмотра логов используйте: tail -f n8n.log${NC}"
 echo -e "${GREEN}Интерфейс n8n доступен по адресу: http://localhost:5678${NC}" 
+```
 
 ## Operations
 
